@@ -1,7 +1,7 @@
 //jshint esversion: 6
 const express = require("express");
 // using body-parser
-const bodyparser = required("body-parser");
+const bodyparser = require("body-parser");
 const app = express();
 
 app.use(bodyparser.urlencoded({extended: true}));
